@@ -10,7 +10,6 @@
                             "translatedName": "Web API",
                             "isApi": true,
                             "reactType": "Web",
-                            "properties": {},
                             "children": [],
                             "id": "f99b7ebd-8aad-46fa-99d4-8e6531c44d09",
                             "thunkableVersion": 443,
@@ -20,21 +19,22 @@
                 }
             },
             "assets": {
-                "65c0830f873cf34a222e7ecc": {
+                "65d77141aae17179bfc93bdd": {
+                    "name": "codygram-high-resolution-logo-transparent.png",
+                    "originalname": "codygram-high-resolution-logo-transparent.png",
                     "externalStorageType": "GCS",
-                    "_id": "65c0830f873cf34a222e7ecc",
+                    "externalName": "users/65afe5c5232920be6365f1e6/projects/65d77141aae17179bfc93bda/assets/65d77141aae17179bfc93bdd",
+                    "backendURI": "/project/65d77141aae17179bfc93bda/getasset/65d77141aae17179bfc93bdd",
                     "size": "82288",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "originalname": "codygram-high-resolution-logo-transparent.png",
-                    "backendURI": "/project/65c01b4b0947b348437ff283/getasset/65c0830f873cf34a222e7ecc",
-                    "name": "codygram-high-resolution-logo-transparent.png",
-                    "externalName": "users/65afe5c5232920be6365f1e6/projects/65c01b4b0947b348437ff283/assets/65c0830f873cf34a222e7ecc",
+                    "_id": "65d77141aae17179bfc93bdd",
                     "createdAt": "2024-02-05T06:41:19.660Z",
                     "updatedAt": "2024-02-05T06:41:19.660Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65afe5c5232920be6365f1e6/projects/65c01b4b0947b348437ff283/assets/65c0830f873cf34a222e7ecc?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240205%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240205T064119Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=705b89a11e58e10e98f0b1bf61b2bcc9bdb2c01e0f3c54977fdbaebd34a1daa43f63ceb4a311e2511d8c08fbcc6b5d7e0e253e030c8374ad64c1d175bf673632e831c63ce06386bc74cbef95f51d144658ac233d6935c3118bcde063ee16c221c5e8f51760ad71a1433ac6bdca8f9eb41c4f683df2048e9821fd3d1a12f07a1d3d3005c14ba0339da6b573d8bb37a90757c7ccf04eb047f477d069272ff44cddf47c8a889e3590e6211ea59e487375196f878ba526471432ceaa88df7e0ce38413e7aa17bf0a3f52f1d787bec2e5211e164f2e6c574582577b5ed5059fcd163e8ca32dee9c1e560727576d9a944acde5f62da732ffd1204e14b48b486a25120d",
-                    "signedUrlExpirationTime": 1707288079695
+                    "id": "65d77141aae17179bfc93bdd",
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65afe5c5232920be6365f1e6/projects/65d77141aae17179bfc93bda/assets/65d77141aae17179bfc93bdd?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240226%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240226T150903Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=2c5d87fc8ab3531bf3094b45b29ccb4eecec631cb59d5abcd345c91121230024a8109b0f2cceddbe1daefab7f3c56bbf9e25347541d89263f16536d2b3fbea43bd9adffc0f515eb6d2341b3dc830b04227669c9e6642f0155d991b244d88c5e857b87dfe90300f3d556fd5971d8b35a4025dffa5ae45bd126b3872c5c2684be90df9689450821ea2d4df4bc89b8521fda1c6153e752659a7bd5e3cf25ec55c1245eaf601e3b9f5f92df0292567fb61295c67cc79a96d176040ae5edcd5caa93c9ba23fe102b74fd024914872c81269a88d477a32d730fcfed7a528ff478168c6feb8291c50e2fec361c354bf1c20399d5d00f9004ec7d463bf679cc7c27e1ae6",
+                    "signedUrlExpirationTime": 1709132943141
                 }
             },
             "backendUpgradeVersion": 24,
@@ -100,7 +100,6 @@
                             "TabNavigationOptions": {
                                 "tabBarVisible": true
                             },
-                            "TabNavigatorIcon": {},
                             "config": {
                                 "contentOptions": {
                                     "drawerPosition": "left"
@@ -108,8 +107,7 @@
                             },
                             "navigationOptions": {
                                 "tabBarVisible": true
-                            },
-                            "tabNavigationOptions": {}
+                            }
                         },
                         "children": [
                             {
@@ -128,7 +126,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Profile App",
+            "projectName": "Profile App - Monetization Build",
             "settings": {
                 "teamId": null,
                 "appName": "ProfileApp",
@@ -174,7 +172,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-1986061813489916~6177859489",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -223,11 +221,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-1986061813489916~6177859489",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
